@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Practica proyecto</title>
+</head>
+<body>
+  <main class="main">
+    <section class="section">
+      <article id="primer-texto" class="top-input">TOP TEXT</article>
+      <article class="center-text"></article>
+      <article class="bottom-text">BOTTOM TEXT</article>
+    </section>
+  </main>
+
+  <aside class="aside">
+    <form>
+      <h2 class="titulo-aside">TEXTO</h2>
+      <div>
+        <label for="top-input">Superior</label>
+        <input type="text" id="top-input" value="TOP TEXT">
+      </div>
+      <div>
+        <input id="top-check" type="checkbox">
+        <label for="top-check">Sin texto superior</label>
+      </div>
+      <div>
+        <label for="bot">Inferior</label>
+        <input type="text" id="bot" value="BOTTOM TEXT">
+      </div>
+      <div>
+        <input id="top-check-2" type="checkbox">
+        <label for="top-check-2">Sin texto inferior</label>
+      </div>
+      <div>
+        <label for="option">Fuente</label>
+        <select name="option" id="option">
+          <option value="arial">Arial</option>
+          <option value="arial-black">Arial Black</option>
+          <option value="american-typewriter">American Typewriter</option>
+          <option value="andale-mono">Andale Mono</option>
+          <option value="Impact">Impact</option>
+          <option class="helvetica" value="helvetica">Helvetica</option>
+        </select>
+      </div>
+      <div class="font-button">
+        <input id="input-size" type="number" value="40" min="0" max="50">
+        <button id="izquierda">I</button>
+        <button>C</button>
+        <button>D</button>
+      </div>
+      <div class="font-button">
+        <div>
+          <label for="color">Color</label>
+          <div class="color-buttons">
+            <input type="color" id="color" value="#000000">
+            <span>#000000</span>
+          </div>
+        </div>
+        <div>
+          <label for="fondo">Fondo</label>
+          <div class="color-buttons">
+            <input type="color" id="fondo" value="#ffffff">
+            <span>#ffffff</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <input type="checkbox" id="transparente">
+        <label for="transparente">Fondo transparente</label>
+      </div>
+      <div>
+        <label>Contorno</label>
+      </div>
+      <div class="buton-contorno">
+        <button>Ninguno</button>
+        <button>Claro</button>
+        <button>Oscuro</button>
+      </div>
+      <div>
+        <label for="espaciado">Espaciado</label>
+        <input type="number" id="espaciado" value="17">
+      </div>
+      <div>
+        <label for="interlineado">Interlineado</label>
+        <select name="interlineado" id="interlineado">
+          <option value="0.8">0.8</option>
+          <option value="1">1</option>
+          <option value="1.2">1.2</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+        </select>
+      </div>
+    </form>
+  </aside>
+
+
+  <script src="./js/app.js"></script>
+</body>
+</html>

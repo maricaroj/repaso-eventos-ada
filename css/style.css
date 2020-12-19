@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 70%;
+  background-color: slateblue;
+}
+
+.section{
+  width: 70%;
+  height: auto;
+  background-color: cyan;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.top-text, .bottom-text, .top-input{
+  width: 100%;
+  height: auto;
+  padding: 8%;
+}
+
+.center-text{
+  width: 100%;
+  height: auto;
+  padding: 20%;
+  background-color: black;
+}
+
+.aside {
+  width: 30%;
+  height: 100vh;
+  background-color: rgb(46, 45, 45);
+  color: white;
+}
+
+.titulo-aside{
+  padding: 10% 0;
+  text-align: center;
+}
+
+.aside div{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin:2% auto;
+}
+
+.font-button{
+  display: flex;
+  flex-direction: row !important;
+}
+
+.font-button button{
+  width: 15%;
+  padding: 2%;
+}
+
+input, select{
+  padding: 2%;
+}
+
+.color-buttons{
+  display: flex;
+  flex-direction: row !important;
+  margin: 1% !important;
+  width: 90% !important;
+  background-color: rgb(68, 65, 65);
+}
+
+.buton-contorno{
+  display: flex ;
+  flex-direction: row !important;
+}
+
+.buton-contorno button {
+  margin: 0 1%;
+  padding: 2%;
+}
+
+.ocultar{
+  /* display: none; */
+  visibility: hidden;
+  /* font-size; */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
